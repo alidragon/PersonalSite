@@ -14,11 +14,12 @@ body {
     padding: 0 !important;
 }
 header {
+	margin-top:50px;
 	margin-left: auto;
 	margin-right:auto;
 	width:500px;
 	text-align: center;
-	margin-bottom:50px;
+	margin-bottom:-30px;
 }
 header h1 {
 	font-size:40px;
@@ -26,27 +27,23 @@ header h1 {
 }
 nav {
 	margin:10px;
+	height:70px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 nav li {
 	display:inline-block;
+	width:75px;
 }
 nav a {
 	color:black;
 	text-decoration:none;
-	padding:10px;
+	padding:15px;
 	margin:5px;
-	padding-left: 8px;
-	padding-right: 8px;
 }
 nav a:hover {
 	color:black;
 	text-decoration:underline;
 	background-color:#eee;
-}
-nav li:hover {
-}
-nav ul {
-	margin-left: -40px;
 }
 .main {
 	width:933px;
@@ -55,4 +52,10 @@ nav ul {
 	margin-right:auto;
 	padding: 0px;
 	min-height: 800px;
+}
+.currentpage {
+	border-bottom: 1px black solid;
+}
+hr {
+	margin:40px;
 }
